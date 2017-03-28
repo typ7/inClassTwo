@@ -1,10 +1,9 @@
 # inClassTwo
-Project to be done in lieu of cancelled class
-
+In class assignment for 3.28.17
 
 # Description
 
-### Working with CSS transitions and animations
+### Working with CSS transitions and animations and JavaScript/jQuery
 
 Recently, we covered CSS animations and transitions in lecture during class.
 
