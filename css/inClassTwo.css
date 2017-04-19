@@ -1,1 +1,79 @@
 /*All css for this project should be in this file only, not in the html file*/
+.name{
+    color: black;
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 3s; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 3s;
+}
+
+#cf img {
+    padding: 10px;
+    position: relative;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+}
+
+#cf img.top:hover {
+    opacity:0;
+}
+
+
+.SS{
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    float: left;
+    padding: 10px;
+
+}
+
+.SS:hover{
+    border-radius: 50%;
+}
+
+figure{
+    margin-left: auto;
+    margin-right: auto;
+    width: 506px;
+}
+
+.SS2{
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    float: left;
+    padding: 10px;
+
+}
+
+.SS2:hover{
+    box-shadow: inset 0 0 0 25px black;
+}
+
+.SS3{
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    float: left;
+    padding: 10px;
+
+}
+
+.SS3:hover{
+    -webkit-transform: rotateZ(-30deg);
+    -ms-transform: rotateZ(-30deg);
+    transform: rotateZ(-30deg);
+}
+
+@-webkit-keyframes example {
+    from {color: gray;}
+    to {color: black;}
+}
+
+@keyframes example {
+    from {color: gray;}
+    to {color: black;}
+}
